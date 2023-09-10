@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Joke {
     private String type;
     private String setup;
-    private String punchLine;
+    private String punchline;
     private int id;
 
     public Joke() {
@@ -30,12 +30,12 @@ public class Joke {
         this.setup = setup;
     }
 
-    public String getPunchLine() {
-        return punchLine;
+    public String getPunchline() {
+        return punchline;
     }
 
-    public void setPunchLine(String punchLine) {
-        this.punchLine = punchLine;
+    public void setPunchline(String punchline) {
+        this.punchline = punchline;
     }
 
     public int getId() {
